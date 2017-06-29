@@ -12,8 +12,8 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    	<maven.compiler.source>1.8</maven.compiler.source>
-    	<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
 
 	<dependencies>
@@ -22,7 +22,7 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 			<version>1.2.3.RELEASE</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.apache.kafka</groupId>
 			<artifactId>kafka_2.10</artifactId>
@@ -38,26 +38,26 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<version>1.2.3.RELEASE</version>
 			<scope>test</scope>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
 			<version>18.0</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
 			<version>3.6</version>
 		</dependency>
-	
+
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
